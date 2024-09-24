@@ -45,7 +45,7 @@ end
 config.background = {
   {
     source = {
-      File = "/Users/tudorg/Pictures/vyp8vai9nzod1.png",
+      File = wezterm.home_dir .. "/.local/share/chezmoi/private_Pictures/vyp8vai9nzod1.png"
     },
     hsb = {brightness = 0.1}
   }
