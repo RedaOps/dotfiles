@@ -197,6 +197,12 @@ require('telescope').setup{
   }
 }
 
+require('nvim-tree').setup({
+  git = {
+    ignore = false
+  }
+})
+
 -- Transparent background
 -- vim.cmd [[
 --   highlight Normal guibg=none
