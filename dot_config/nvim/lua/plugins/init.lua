@@ -16,6 +16,19 @@ return {
   },
 
   {
+    "folke/trouble.nvim",
+    opts = {},
+    cmd = "Trouble",
+    keys = {
+      {
+        "<leader>ce",
+        "<cmd>Trouble diagnostics toggle<cr>",
+        desc = "Diagnostics (Trouble)"
+      }
+    }
+  },
+
+  {
   'mrcjkb/rustaceanvim',
   version = '^5', -- Recommended
   lazy = false, -- This plugin is already lazy
