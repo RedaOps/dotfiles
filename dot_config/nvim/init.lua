@@ -211,3 +211,7 @@ vim.cmd [[
   highlight NonText ctermbg=none
 ]]
 vim.opt.guicursor = "n-v-i-c:block-Cursor"
+
+vim.cmd [[
+  set diffopt+=vertical
+]]

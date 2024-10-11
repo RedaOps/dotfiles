@@ -55,6 +55,11 @@ return {
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
 
+  {
+    "tpope/vim-fugitive",
+    lazy = false,
+  },
+
   { "neoclide/coc.nvim" },
 
   -- {
