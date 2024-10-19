@@ -192,7 +192,8 @@ require('telescope').setup{
     file_ignore_patterns = { 
       "node_modules",
       "target/release",
-      "target/debug"
+      "target/debug",
+      ".git"
     }
   }
 }
