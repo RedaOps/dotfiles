@@ -47,6 +47,7 @@ config.background = {
     source = {
       File = wezterm.home_dir .. "/.local/share/chezmoi/private_Pictures/background.png"
     },
+    horizontal_align = "Center",
     hsb = {brightness = 0.1}
   }
 }
