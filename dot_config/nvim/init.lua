@@ -216,3 +216,7 @@ vim.opt.guicursor = "n-v-i-c:block-Cursor"
 vim.cmd [[
   set diffopt+=vertical
 ]]
+
+vim.cmd [[
+  set spell spelllang=en_us
+]]
