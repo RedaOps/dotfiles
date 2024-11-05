@@ -220,3 +220,7 @@ vim.cmd [[
 vim.cmd [[
   set spell spelllang=en_us
 ]]
+
+vim.cmd [[
+  set relativenumber
+]]
